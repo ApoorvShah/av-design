@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AV Design - Professional Interior Design Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="main-nav">
+        <div class="nav-left">
+            <div class="logo">
+                <img src="av.png" alt="AV Design Logo">
+            </div>
+            <div class="nav-links desktop-only">
+                <a href="#home" class="active">Home</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#packages">Packages</a>
+                <a href="#portfolio">Portfolio</a>
+            </div>
+        </div>
+        <div class="nav-right">
+            <button class="get-started-btn desktop-only">Get Started</button>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <div class="mobile-menu">
+            <button class="close-menu"><i class="fas fa-times"></i></button>
+            <div class="menu-items">
+                <a href="#home" class="active">Home</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#packages">Packages</a>
+                <a href="#portfolio">Portfolio</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h1>THE #1 INTERIOR DESIGN SERVICE</h1>
+                <h2>Designing your dream home just became a reality.</h2>
+                <button class="cta-btn">Take Our Style Quiz</button>
+            </div>
+        </section>
+
+        <section id="how-it-works" class="process-section">
+            <h2>How AV Design Works</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>1. Discover Your Style</h3>
+                    <p>Take our style quiz to help us understand your taste and preferences</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                    <h3>2. Match with a Designer</h3>
+                    <p>Get paired with a professional designer who matches your style</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-pencil-ruler"></i>
+                    </div>
+                    <h3>3. Collaborate on Designs</h3>
+                    <p>Work with your designer to create the perfect space for you</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>4. Transform Your Space</h3>
+                    <p>Receive final designs and bring your vision to life</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="packages" class="packages-section">
+            <h2>Design Packages</h2>
+            <div class="package-cards">
+                <div class="package-card">
+                    <h3>Mini</h3>
+                    <div class="price">₹15,000</div>
+                    <ul class="features">
+                        <li>One room design</li>
+                        <li>3 initial design concepts</li>
+                        <li>2 design revisions</li>
+                        <li>Shopping list</li>
+                        <li>Layout visualization</li>
+                    </ul>
+                    <button class="select-package-btn">Select Mini</button>
+                </div>
+                <div class="package-card featured">
+                    <div class="featured-label">Most Popular</div>
+                    <h3>Full</h3>
+                    <div class="price">₹25,000</div>
+                    <ul class="features">
+                        <li>One room design</li>
+                        <li>Unlimited design concepts</li>
+                        <li>Unlimited revisions</li>
+                        <li>Shopping list with alternatives</li>
+                        <li>3D visualization</li>
+                        <li>Layout customization</li>
+                        <li>Furniture placement guide</li>
+                    </ul>
+                    <button class="select-package-btn">Select Full</button>
+                </div>
+                <div class="package-card">
+                    <h3>Multi-Room</h3>
+                    <div class="price">Custom</div>
+                    <ul class="features">
+                        <li>Multiple room design</li>
+                        <li>Unlimited design concepts</li>
+                        <li>Unlimited revisions</li>
+                        <li>Complete shopping service</li>
+                        <li>3D visualization</li>
+                        <li>Project management</li>
+                        <li>Contractor coordination</li>
+                    </ul>
+                    <button class="select-package-btn">Contact Us</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio-section">
+            <h2>Recent Projects</h2>
+            <div class="horizontal-scroll">
+                <div class="project-card">
+                    <img src="img/portfolio_pic1.jpg" alt="Modern Living Room">
+                    <div class="project-info">
+                        <h3>Modern Living Room</h3>
+                        <p>A contemporary space with clean lines and natural light</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="img/portfolio_pic2.jpg" alt="Luxury Bedroom">
+                    <div class="project-info">
+                        <h3>Luxury Bedroom</h3>
+                        <p>Elegant master suite with custom furnishings</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="img/portfolio_pic3.jpg" alt="Kitchen Design">
+                    <div class="project-info">
+                        <h3>Modern Kitchen</h3>
+                        <p>Functional kitchen with premium finishes</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cta" class="cta-section">
+            <h2>Ready to Transform Your Space?</h2>
+            <p>Take our style quiz and get matched with a professional designer today.</p>
+            <button class="cta-btn">Start Your Design Journey</button>
+        </section>
+    </main>
+
+    <div class="quiz-modal" id="quizModal">
+        <div class="modal-content">
+            <button class="close-modal"><i class="fas fa-times"></i></button>
+            <h2>Let's Find Your Style</h2>
+            <div class="quiz-container">
+                <!-- Quiz content will be dynamically loaded -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
